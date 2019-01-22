@@ -5,6 +5,7 @@ Canvas Color Scheme:
 #30bced
 #c03fff
 #fffaff
+#fb8b24
 */ 
 
 .jumbotron {
@@ -14,6 +15,7 @@ Canvas Color Scheme:
     background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
     color: #f4f4f4;
     border-bottom: 25px solid #212026;
+    margin-bottom: 50px;
 }
 
 
@@ -35,4 +37,14 @@ canvas {
 body {
     height: 100%;
     background:url(/assets/imgs/white-waves.png)
+}
+
+footer {
+    background-color: #c03fff;
+    border-top: 25px solid #212026;
+    margin-top: 50px;
+}
+
+footer .container .row {
+    margin-top:25px;
 }
