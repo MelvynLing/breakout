@@ -1,0 +1,38 @@
+/*
+Canvas Color Scheme:
+#fcff4b
+#212026
+#30bced
+#c03fff
+#fffaff
+*/ 
+
+.jumbotron {
+    background: -webkit-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -o-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #7a00cc 40%, #c03fff 70%);
+    background: -moz-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    color: #f4f4f4;
+    border-bottom: 25px solid #212026;
+}
+
+
+hr {
+    width:450px;
+    border-top: 2px dotted #f4f4f4;
+}
+
+
+canvas { 
+    background: #7a00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #7a00cc, #c03fff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,  #7a00cc, #c03fff); /* W3C, IE 10+/ '
+    Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 2px solid #212026;
+
+}
+
+body {
+    height: 100%;
+    background:url(/assets/imgs/white-waves.png)
+}
